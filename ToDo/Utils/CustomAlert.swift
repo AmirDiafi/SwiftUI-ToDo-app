@@ -7,17 +7,8 @@
 
 import SwiftUI
 
-struct CustomAlert: View {
-    var alertText: String
-    var body: some View {
-        VStack {
-            Alert(title: Text(alertText))
-        }
-    }
-}
 
-struct CustomAlert_Previews: PreviewProvider {
-    static var previews: some View {
-        CustomAlert(alertText: "nothing")
-    }
-}
+//func customAlert(alertText: String) -> Alert {
+//    return Alert(title: Text(alertText))
+//}
+
